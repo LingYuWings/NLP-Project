@@ -26,3 +26,38 @@ QLabel {
     font-size: 16px;
     font-weight: bold;
 }
+
+/* 设置下拉选择框的样式 */
+QComboBox {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    min-width: 80px;
+}
+
+/* 设置下拉选择框的下拉箭头图标 */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    height: 20px;
+    border-left: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+/* 设置下拉选择框的下拉箭头图标样式 */
+/* QComboBox::down-arrow {
+    image: url("down_arrow.png"); 
+} */
+
+/* 设置下拉选择框下拉列表的样式 */
+QComboBox QAbstractItemView {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    selection-background-color: #007BFF;
+    selection-color: #fff;
+}
