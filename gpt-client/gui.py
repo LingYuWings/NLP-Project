@@ -56,7 +56,7 @@ class ChatGPTClientGUI(QMainWindow):
         self.chatgpt_client = ChatGPTClient(api_key)
 
     def update_api_key(self):
-        api_key = self.api_key_input.text()
+        api_key = self.api_key_input.text().strip()  # 去掉额外的空格
         self.chatgpt_client.api_key = api_key
 
     def submit_question(self):
