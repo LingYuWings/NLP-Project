@@ -32,8 +32,37 @@ class ChatGPTApp(QMainWindow):
 
         self.setCentralWidget(container)
 
-        self.setWindowTitle("Chatbot-sample")
-        self.setStyleSheet("./chat.qss")
+        self.setWindowTitle("Chatbot-GUI")
+        self.setStyleSheet("""
+            QMainWindow {
+                background-color: #f2f2f2;
+            }
+            QTextEdit {
+                background-color: white;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 14px;
+                padding: 5px;
+            }
+            QLineEdit {
+                background-color: white;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 14px;
+                padding: 5px;
+            }
+            QPushButton {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+            QPushButton:hover {
+                background-color: #45a049;
+            }
+        """)
 
         self.show()
 
