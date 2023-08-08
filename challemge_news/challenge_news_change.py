@@ -4,17 +4,6 @@ import numpy as np
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from transformers import BertTokenizer, TFBertForSequenceClassification
-import zipfile
-import gdown
-
-# url = 'https://drive.google.com/uc?id=1bbm2wqtWmgkVIlJR9Ly6HvlAyjMbJ4mo'
-# output = 'news300.zip'
-# gdown.download(url, output, quiet=True)
-# with zipfile.ZipFile(output, 'r') as zip_ref:
-#     zip_ref.extractall('.')
-    
-# # Remove the zip file (optional)
-# os.remove(output)
 
 # Load and preprocess data
 def load_data(data_dir):
@@ -32,10 +21,10 @@ def load_data(data_dir):
             with open(file_path, 'r', encoding='utf-8') as file:
                 content = file.read()
                 data_x.append(content)
-                data_y.append(category_idx)
+                data_y.append(category)  # Store actual labels, not indices
     return data_x, data_y
 
-data_dir = "./news300"
+data_dir = "news300"
 data_x, data_y = load_data(data_dir)
 
 num_classes = len(set(data_y))
@@ -72,7 +61,7 @@ validate_dataset = tf.data.Dataset.from_tensor_slices((
 model = TFBertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=num_classes)
 
 # Compile and train the model
-optimizer = tf.keras.optimizers.Adam(learning_rate=2e-5, epsilon=1e-08)
+optimizer = tf.keras.optimizers.Adam(learning_rate=1e-5, epsilon=1e-08, clipnorm=1.0)  # Add clipnorm parameter
 model.compile(optimizer=optimizer, loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), metrics=['accuracy'])
 model.fit(train_dataset, epochs=3, validation_data=validate_dataset)
 
