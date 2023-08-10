@@ -7,14 +7,14 @@ from transformers import BertTokenizer, TFBertForSequenceClassification
 import zipfile
 import gdown
 
-# url = 'https://drive.google.com/uc?id=1bbm2wqtWmgkVIlJR9Ly6HvlAyjMbJ4mo'
-# output = 'news300.zip'
-# gdown.download(url, output, quiet=True)
-# with zipfile.ZipFile(output, 'r') as zip_ref:
-#     zip_ref.extractall('.')
+url = 'https://drive.google.com/uc?id=1bbm2wqtWmgkVIlJR9Ly6HvlAyjMbJ4mo'
+output = 'news300.zip'
+gdown.download(url, output, quiet=True)
+with zipfile.ZipFile(output, 'r') as zip_ref:
+    zip_ref.extractall('.')
     
-# # Remove the zip file (optional)
-# os.remove(output)
+# Remove the zip file (optional)
+os.remove(output)
 
 # Load and preprocess data
 def load_data(data_dir):

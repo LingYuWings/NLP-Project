@@ -24,7 +24,7 @@ def load_data(data_dir):
                 data_y.append(category)  # Store actual labels, not indices
     return data_x, data_y
 
-data_dir = "news300"
+data_dir = "./news300"
 data_x, data_y = load_data(data_dir)
 
 num_classes = len(set(data_y))
