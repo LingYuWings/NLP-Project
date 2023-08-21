@@ -636,99 +636,237 @@
       "context_set": ""
     },
     {
-      "tag": "expression_of_sadness",
-      "patterns": ["dead at forty one .", "you covered in my vomit .", "why don t you go drown yourself ?"],
-      "responses": ["That's really sad.", "I'm sorry to hear that.", "That sounds terrible."],
+      "tag": "gossip_romantic_relationships",
+      "patterns": ["Did you hear about their breakup?", "Who's dating who now?", "Is it true they're secretly together?", "I can't believe they're back together.", "Have you seen their recent Instagram posts?", "Rumors say they're having relationship problems."],
+      "responses": ["Oh, that's juicy!", "Relationship drama is always interesting.", "Love is complicated, isn't it?", "Relationships in the spotlight are never easy.", "Social media keeps us updated on everything.", "Gossiping about love is timeless."],
       "context_set": ""
     },
     {
-      "tag": "response_to_compliment",
-      "patterns": ["he s pretty !", "okay ! i wasn t sure", "you re so ", "you re so ", "pleasant ?", "try lookin at it from this angle", "put your right foot there", "you up for it ?", "no one else knows", "is that a request or a command ?", "no what ?", "no i won t go with you", "no i won t go with you", "why not ?", "it s just something i had . you know", "my grandmother s .", "say it", "what ? !", "ever been to club skunk ?", "yeah .", "in the microwave .", "make anyone cry today ?", "have a great time honey !", "but who what ?", "what just happened ?", "your daughters went to the prom .", "did i have anything to say about it ?", "absolutely not ."],
-      "responses": ["Thank you!", "I appreciate that.", "You think so?", "Interesting.", "Is that so?", "I see what you mean.", "Let's try that.", "Sure thing!", "I'm glad I could share.", "It's a suggestion.", "What's that?", "Why not?", "Interesting. Tell me more.", "That's meaningful.", "Tell me more.", "Okay then.", "Got it!", "Tell me more.", "Sounds like fun!", "Really? How was it?", "Interesting. What did you cook?", "How did they react?", "Thank you! Have a great time too!", "Interesting. Tell me more.", "That's a good question.", "Sounds like a surprise!", "I see. Well, they're growing up."],
+      "tag": "gossip_career_moves",
+      "patterns": ["Did you know they got a promotion?", "I heard they're switching jobs.", "Their new business venture is making waves.", "Have you seen their recent LinkedIn update?", "Rumor has it they're planning to resign.", "They're really climbing the corporate ladder."],
+      "responses": ["Impressive career moves!", "Ambition pays off, it seems.", "Career changes can be exciting.", "It's inspiring to see them succeed.", "Job changes can lead to new opportunities.", "Gossiping about success is motivating."],
       "context_set": ""
     },
     {
-      "tag": "positive_reaction",
-      "patterns": ["you have my word . as a gentleman", "you re sweet .", "great", "wow", "let s go ."],
-      "responses": ["Thank you!", "I appreciate that.", "You're too kind.", "Let's do it!", "Exciting!"],
+      "tag": "gossip_tv_series",
+      "patterns": ["Have you been watching that TV show?", "Did you see the latest episode?", "I can't believe what happened on that series!", "Their plot twists are mind-blowing.", "I'm hooked on that new drama.", "The characters on that show are so intriguing."],
+      "responses": ["TV series discussions are always fun.", "Plot twists keep us engaged.", "TV shows are a great conversation starter.", "Binge-watching can be addictive.", "That show is on everyone's lips.", "Gossiping about TV shows is a favorite pastime."],
       "context_set": ""
     },
     {
-      "tag": "acknowledgment",
-      "patterns": ["there .", "where ?", "well no . . ."],
-      "responses": ["Got it.", "I understand.", "Hmm.", "Okay."],
+      "tag": "gossip_celebrity_relationships",
+      "patterns": ["Did you hear about their new celebrity couple?", "Who's the latest power couple?", "Are they really dating?", "Their red carpet appearances have everyone talking.", "I can't keep up with their dating rumors."],
+      "responses": ["Celebrity relationships always make headlines.", "Hollywood romances are intriguing.", "Paparazzi are always watching.", "Their love life is a hot topic.", "Gossiping about celebrity couples is a guilty pleasure."],
       "context_set": ""
     },
     {
-      "tag": "response_to_positive_reaction",
-      "patterns": ["looks like things worked out tonight huh ?", "have fun tonight ?", "tons"],
-      "responses": ["Yeah, things went well!", "Thanks! It should be fun.", "Definitely tons of fun!"],
+      "tag": "gossip_social_events",
+      "patterns": ["Did you see the photos from that glamorous event?", "Who attended the star-studded party?", "Their fashion choices were on point at the gala.", "I wish I could've been there!", "Social events seem like a whole different world."],
+      "responses": ["Social events are a glimpse into luxury.", "Red carpet fashion is always fascinating.", "It's like stepping into a different universe.", "Celebrity parties are extravagant.", "Gossiping about glamorous events is captivating."],
       "context_set": ""
     },
     {
-      "tag": "response_to_acknowledgment",
-      "patterns": ["then that s all you had to say .", "but", "you always been this selfish ?", "but you hate joey", "you might wanna think about it"],
-      "responses": ["True.", "However,...", "No, I'm not usually like this.", "That's different.", "I'll consider it."],
+      "tag": "gossip_movie_premieres",
+      "patterns": ["Have you seen the buzz around that movie premiere?", "Did you catch the latest blockbuster's premiere?", "The critics are raving about that film.", "I'm curious about their box office numbers.", "Movie premieres are all about glitz and glamour."],
+      "responses": ["Movie premieres are a star-studded affair.", "Film reviews can shape a movie's fate.", "Box office success is a big deal.", "Hollywood knows how to throw a premiere.", "Gossiping about movie premieres is so much fun."],
       "context_set": ""
     },
     {
-      "tag": "compliment",
-      "patterns": ["you looked beautiful last night you know .", "so did you"],
-      "responses": ["Thank you!", "I appreciate that.", "You looked great too!"],
+      "tag": "gossip_music_world",
+      "patterns": ["Have you heard the latest drama in the music industry?", "Who's topping the charts now?", "Did you see their controversial music video?", "Their feud is making headlines.", "The music world is full of surprises."],
+      "responses": ["The music industry is always buzzing.", "Chart battles can be intense.", "Music videos spark discussions.", "Feuds and controversies are part of the game.", "Gossiping about the music world is entertaining."],
       "context_set": ""
     },
     {
-      "tag": "farewell",
-      "patterns": ["let go !", "daddy no !", "it s just a party . daddy ."],
-      "responses": ["Goodbye!", "Hold on tight!", "Just for a minute then.", "Have fun!"],
+      "tag": "gossip_high_society",
+      "patterns": ["Do you keep up with high society events?", "Who's making waves in elite circles?", "Their lavish lifestyle is envy-worthy.", "I heard they attended that exclusive party.", "High society gatherings are a world of their own."],
+      "responses": ["High society events are opulent.", "Elites know how to throw a party.", "A lavish lifestyle is a dream for many.", "Exclusive parties are the talk of the town.", "Gossiping about high society is intriguing."],
       "context_set": ""
     },
     {
-      "tag": "question_about_someone",
-      "patterns": ["who ?", "where ve you been ?", "who ?", "how many people were in your old school ?", "what about him ?", "the prom ? kat has a date ?"],
-      "responses": ["Who are you referring to?", "Where have you been?", "Who are you talking about?", "Interesting. How many?", "Tell me more about him.", "Really? Tell me more."],
+      "tag": "gossip_fame_pressure",
+      "patterns": ["Have you seen how fame is affecting them?", "Do you think the pressure of fame is getting to them?", "Fame can be a double-edged sword.", "Their struggles with the spotlight are making headlines.", "I wonder how they're handling the fame game."],
+      "responses": ["Fame comes with its challenges.", "Public scrutiny can take a toll.", "The pressure to maintain an image is real.", "Fame isn't always what it seems.", "Gossiping about the effects of fame is thought-provoking."],
       "context_set": ""
     },
     {
-      "tag": "expressing_concern",
-      "patterns": ["she okay ?", "i hope so ."],
-      "responses": ["I hope she's alright.", "Let's hope for the best."],
+      "tag": "gossip_hidden_scandals",
+      "patterns": ["Have you heard about the scandal they're trying to keep hidden?", "I wonder what secrets they're hiding.", "Scandals behind closed doors are the juiciest.", "Their image might be a facade.", "The truth often comes out eventually."],
+      "responses": ["Hidden scandals are the most intriguing.", "Everyone has a skeleton in the closet.", "Secrets have a way of surfacing.", "Scandals can change public perception.", "Gossiping about hidden truths is thrilling."],
       "context_set": ""
     },
     {
-      "tag": "denial",
-      "patterns": ["they do to !", "no ."],
-      "responses": ["You think so?", "I'm not so sure."],
+      "tag": "gossip_television_dramas",
+      "patterns": ["Did you catch the latest plot twist in that TV drama?", "Their characters' storylines are so intense.", "The drama on that show is addictive.", "I can't believe what happened on the season finale.", "TV dramas keep us hooked."],
+      "responses": ["TV dramas are full of suspense.", "Character developments drive the story.", "Drama series create emotional connections.", "Season finales always leave us wanting more.", "Gossiping about television dramas is captivating."],
       "context_set": ""
     },
     {
-      "tag": "denial",
-      "patterns": ["they do to !", "no ."],
-      "responses": ["You think so?", "I'm not so sure."],
+      "tag": "gossip_relationship_rumors",
+      "patterns": ["Is it true they're more than just friends?", "Have you heard the latest relationship rumors?", "Their interactions seem more than casual.", "I think they're keeping their relationship under wraps.", "Gossip columns are buzzing with their romance rumors."],
+      "responses": ["Relationship speculations are juicy.", "Chemistry can spark rumors.", "Public attention is on their interactions.", "Celebrities' personal lives are always in the spotlight.", "Gossiping about possible romances is intriguing."],
       "context_set": ""
     },
     {
-      "tag": "explanation",
-      "patterns": ["why ?", "why ?", "because she ll scare them away .", "it s a lung cancer issue", "her favorite uncle"],
-      "responses": ["I'm curious about that too.", "Just wondering.", "Makes sense.", "That's a serious matter.", "That's sad to hear."],
+      "tag": "gossip_digital_presence",
+      "patterns": ["Did you see what they posted on social media?", "Their online presence is quite a spectacle.", "Social media drama is so entertaining.", "Their latest tweet caused quite a stir.", "The digital world keeps us updated on their lives."],
+      "responses": ["Social media can create buzz instantly.", "Online personas can be intriguing.", "Digital drama is a modern phenomenon.", "Tweets and posts can spark discussions.", "Gossiping about their digital presence is captivating."],
       "context_set": ""
     },
     {
-      "tag": "disagreement",
-      "patterns": ["bsolutely not .", "that s what i thought", "no . . .", "no you weren t", "i should do this .", "do what ?", "this .", "no i won t go with you", "why not ?", "i don t want to ."],
-      "responses": ["Strongly disagree.", "I figured as much.", "Are you sure about that?", "I disagree.", "It's a possibility.", "What do you mean?", "Explain more.", "That's your choice.", "Tell me more.", "Interesting. Why not?"],
+      "tag": "gossip_friendship_dynamics",
+      "patterns": ["Did you hear about the falling out between them?", "Friendship dramas can be so complicated.", "Their friendship seems to be on rocky ground.", "I can't believe they unfollowed each other.", "Friendship dynamics can change so quickly."],
+      "responses": ["Friendship dynamics are fascinating.", "Misunderstandings can strain relationships.", "Social media reveals a lot about friendships.", "Friendship drama is relatable to many.", "Gossiping about friendships is relatable."],
       "context_set": ""
     },
     {
-      "tag": "assurance",
-      "patterns": ["he s the devil s child . . .", "we ll all go crazy . . .", "your life and that of others !", "if they agree to follow me yes .", "i could be gone for years .", "i know .", "she said yes .", "thank god . . .", "can t you stay with us a little ?", "i am busy inside .", "my letters of appointment .", "appointment to what ?", "i want to go with you !", "there ll be a time .", "you come ! you speak first !", "tell the chief we thank him .", "chief knows .", "chief says how many ?", "thousands .", "to bring the word of god .", "chief says he has a god .", "that s what it says .", "how did you manage it ?", "all of them ! just lies !", "colon ! don t !", "i suppose we re both old men now .", "you ll always be older than me father .", "i knew you would .", "new worlds create new people .", "oh ? so you are a new man ?", "we can t raise the wheel without it .", "my horse doesn t work .", "where can i meet this man ?", "immediately .", "six days ago yes .", "you must be mad . . . !", "you think i don t know that ?", "we re lost !", "the land is there . i know it !", "you tell that to them !", "you re right . let the men decide .", "then what do you suggest don sanchez ?", "he must be replaced .", "then why ?", "because he is not afraid of me .", "don t say anything .", "where are we going ?", "i m coming with you .", "yes . yes come with me !"],
-      "responses": ["I see what you mean.", "That sounds intense.", "Your responsibility is important.", "Sounds like a plan.", "Planning is key.", "That's understandable.", "Great news!", "Thank goodness.", "Would be nice.", "You have your priorities.", "Tell me more about it.", "Interesting. What's that?", "Sounds exciting.", "Looking forward to it.", "That's important.", "Gratitude is important.", "Understood.", "That's impressive.", "Interesting. Tell me more.", "Interesting. How did that happen?", "Sounds like a divine mission.", "Interesting perspective.", "Impressive!", "That's troubling.", "Let's be careful.", "That's true.", "Experience shapes us.", "Curious indeed.", "Responsibility is key.", "True.", "Curious about the new you.", "Collaboration is important.", "Let's work together.", "Safety first.", "Let's find a solution.", "Curious. Why?", "Fearlessness is admirable.", "Good call.", "Silence can be wise.", "Where to?", "Exciting. Can I join?", "Sounds like an adventure!", "Sounds enthusiastic.", "Enthusiasm is contagious."],
+      "tag": "gossip_travel_escapades",
+      "patterns": ["Have you seen their vacation photos?", "Their travel adventures are envy-inducing.", "I wish I could travel like they do.", "Traveling to exotic locations is the dream.", "Their globetrotting lifestyle is the talk of the town."],
+      "responses": ["Travel escapades are a luxury.", "Wanderlust is a common feeling.", "Exotic locations are on everyone's wishlist.", "Travel photos make us dream.", "Gossiping about travel experiences is inspiring."],
       "context_set": ""
     },
     {
-      "tag": "personal_information",
-      "patterns": ["are you married ?", "so . . .the station is empty ?", "you considered becoming a prostitute ?", "so you were never a prostitute ?", "are you alright ?", "boy she s so popular all the sudden .", "pretty .", "you re polish ?", "you know what that is right ?", "watch the news ?", "do you have coffee ?", "you goin to the escort service ?", "pretty .", "you re polish ?", "you know what that is right ?", "watch the news ?", "coffee for me i gotta slow down .", "when ?", "where is she ?", "takin a bath .", "only one guys checked in ?", "are you hit ?", "no .", "did you tell him you did ?", "my folks are .", "my folks are .", "stay here .", "you goin to the escort service ?", "you got any better ideas ?", "you got any better ideas ?", "mind if i ride along with you ?", "mind if i ride along with you ?", "this has nothing to do with your fire .", "two heads .", "you thirsty ?", "why not ?", "something back home ?", "you wanna talk to her alone ?", "you wanna talk to her alone ?", "what would your girlfriend think of that ?", "what would your girlfriend think of that ?", "you better get packed .", "right .", "do you have coffee ?", "in the kitchen .", "in the kitchen .", "i ll make some for us .", "i ll make some for us .", "i ll get my clothes .", "oh .", "it was my decision not his .", "who did cause and origin ?", "what do you mean cleaned up ?", "chief mind if i take her ?", "chief says how many ?", "thousands .", "thousands .", "why ?", "to bring the word of god .", "chief says he has a god ."],
-      "responses": ["Curious question.", "Interesting. Tell me more.", "Personal choices, huh?", "Thanks for sharing.", "I'm fine, thanks for asking.", "Life can be unpredictable.", "Aesthetics matter.", "Different cultures have their charms.", "I'm not familiar. Explain?", "What's happening in the world?", "Sure thing. Where's the coffee?", "Interesting choice of plans.", "Poland has a rich history.", "Do you want to know about it?", "Inform me.", "Drinking responsibly is wise.", "That's soon!", "Where is she now?", "What's the occupancy like?", "Are you injured?", "I see. Did you tell him the truth?", "Nice heritage.", "Interesting background.", "Understood.", "Do you have any suggestions?", "I'm open to ideas.", "I'm curious to know.", "Safety first.", "Experience shapes us.", "Interesting. Tell me more.", "Sounds like a spiritual endeavor.", "Curious about their beliefs."],
+      "tag": "gossip_creative_projects",
+      "patterns": ["Did you know they're working on a secret project?", "Their creative endeavors are exciting.", "Their artistic talents are on full display.", "I'm curious about their upcoming project.", "Collaborations often lead to interesting projects."],
+      "responses": ["Creative projects can be inspiring.", "Artistic talents are worth discussing.", "Secret projects add an air of mystery.", "Collaborative efforts can be groundbreaking.", "Gossiping about creative ventures is captivating."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_business_deals",
+      "patterns": ["Have you heard about their latest business deal?", "Business ventures are a hot topic.", "Their entrepreneurial spirit is commendable.", "I wonder how they negotiated that deal.", "The business world is full of surprises."],
+      "responses": ["Business deals can shape industries.", "Entrepreneurial success stories inspire others.", "Negotiations and partnerships make headlines.", "The corporate world is always evolving.", "Gossiping about business deals is thought-provoking."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_family_updates",
+      "patterns": ["Did you hear about their growing family?", "Family updates are heartwarming.", "Their family gatherings seem so joyful.", "I saw their family portrait on social media.", "Family milestones are worth celebrating."],
+      "responses": ["Family updates bring joy.", "Growing families warm our hearts.", "Family gatherings create lasting memories.", "Social media offers glimpses into family life.", "Gossiping about family updates is heartwarming."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_public_image",
+      "patterns": ["Have you noticed their changing public image?", "Their image transformation is intriguing.", "Public perception can shift quickly.", "I wonder how they're managing their image.", "Their PR team is working overtime."],
+      "responses": ["Public image is crucial for celebrities.", "Image makeovers can surprise fans.", "Managing reputation is a delicate art.", "Media portrayal affects how we see them.", "Gossiping about public image is thought-provoking."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_political_scene",
+      "patterns": ["Did you catch the latest political scandal?", "Their political affiliations are sparking debates.", "I can't believe what they said in that interview.", "The political world is full of intrigue.", "Political dynamics make for juicy gossip."],
+      "responses": ["Political scandals are always attention-grabbing.", "Public figures' statements make headlines.", "Political discussions can get heated.", "Political landscapes are ever-changing.", "Gossiping about the political scene is captivating."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_fitness_journeys",
+      "patterns": ["Have you seen their fitness transformation?", "Their fitness journey is inspiring.", "Their dedication to health is impressive.", "I wonder what their workout routine is.", "Fitness goals are motivating."],
+      "responses": ["Fitness transformations are motivating.", "Health journeys are relatable to many.", "Wellness routines attract attention.", "Fitness achievements are commendable.", "Gossiping about fitness journeys is inspiring."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_award_season",
+      "patterns": ["Did you watch the award show last night?", "Their acceptance speech was touching.", "I can't believe they won that award.", "Award season is all about glam and drama.", "I wonder who'll take home the next award."],
+      "responses": ["Award shows are a Hollywood tradition.", "Acceptance speeches reveal emotions.", "Winning awards boosts careers.", "Red carpet fashion is a highlight.", "Gossiping about award season is exciting."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_social_circles",
+      "patterns": ["Have you heard about the latest drama in their social circle?", "Social circles can be full of intrigue.", "Their inner circle seems so exclusive.", "I wonder who's part of their inner circle.", "Friendship dynamics are complex within their group."],
+      "responses": ["Social circles have their own dynamics.", "Inner circles often have their secrets.", "Friendship circles influence decisions.", "Gossip within social circles is captivating.", "Gossiping about social circles is thought-provoking."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_achievements",
+      "patterns": ["Did you hear about their recent achievement?", "Their accomplishments are impressive.", "I can't believe they reached that milestone.", "Achievements reflect their hard work.", "Their success story is inspiring."],
+      "responses": ["Celebrating achievements is uplifting.", "Success stories motivate others.", "Accomplishments shape their journey.", "Hard work pays off in the end.", "Gossiping about achievements is commendable."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_party_scene",
+      "patterns": ["Have you seen the photos from that party?", "Their party scene is always glamorous.", "I wish I could attend those exclusive events.", "Party photos always make headlines.", "Their social calendar is envy-inducing."],
+      "responses": ["Party scenes can be extravagant.", "Celebrities enjoy the high life.", "Exclusive events create buzz.", "Social gatherings make for great photos.", "Gossiping about party scenes is exciting."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_charitable_activities",
+      "patterns": ["Have you heard about their philanthropic efforts?", "Their charitable work is making a difference.", "I'm impressed by their dedication to giving back.", "Charitable activities show their compassionate side.", "They're using their influence for good."],
+      "responses": ["Philanthropic efforts inspire positive change.", "Giving back is admirable.", "Charitable work creates a positive impact.", "Celebrities as advocates raise awareness.", "Gossiping about charitable activities is commendable."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_entrepreneurial_ventures",
+      "patterns": ["Have you heard about their latest business venture?", "Their entrepreneurial spirit is impressive.", "I'm curious about their new startup.", "Entrepreneurial journeys are full of challenges.", "Business ventures keep them busy."],
+      "responses": ["Entrepreneurial ventures are exciting.", "Business risks reflect their ambition.", "Startups require dedication and hard work.", "Ventures expand their horizons.", "Gossiping about entrepreneurial endeavors is inspiring."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_traditional_media_vs_digital_influence",
+      "patterns": ["Do you think traditional media still holds influence?", "Their digital influence is undeniable.", "Traditional media vs. digital platforms - what's more powerful?", "Their social media presence shapes public opinion.", "The media landscape is evolving rapidly."],
+      "responses": ["Media dynamics are undergoing changes.", "Digital platforms have transformed communication.", "Influence can come from both traditional and digital sources.", "Social media impact is undeniable.", "Gossiping about media trends is thought-provoking."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_social_media_influence",
+      "patterns": ["Their social media presence is impressive.", "Do you follow their online updates?", "Social media has changed the game.", "Likes and comments shape public opinion.", "Their posts always generate buzz."],
+      "responses": ["Social media is a powerful tool.", "Online influence can't be ignored.", "Likes and shares drive engagement.", "Social media trends affect conversations.", "Gossiping about social media influence is relevant."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_beauty_regimens",
+      "patterns": ["Have you noticed their beauty transformation?", "Their skincare and makeup routines are enviable.", "Beauty regimens are an art form.", "I wonder what products they use.", "Beauty secrets are always in demand."],
+      "responses": ["Beauty routines are intriguing.", "Skincare and makeup tips are valuable.", "Celebrity beauty inspires trends.", "Personal grooming is a form of self-care.", "Gossiping about beauty regimens is captivating."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_relationship_status",
+      "patterns": ["Are they still together?", "Their relationship status is the talk of the town.", "I wonder if they're dating anyone new.", "Breakups and makeups keep us guessing.", "Love lives are always interesting."],
+      "responses": ["Relationship status intrigues us.", "Love lives are full of ups and downs.", "Public relationships keep fans invested.", "Breakups and new romances create headlines.", "Gossiping about relationships is relatable."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_fame_impact",
+      "patterns": ["How has fame changed them?", "Fame comes with its own challenges.", "The impact of celebrity status is complex.", "I wonder how they handle the pressure.", "Fame can be both a blessing and a curse."],
+      "responses": ["Fame's impact is far-reaching.", "Celebrity status changes perspectives.", "Public scrutiny can be overwhelming.", "Fame affects personal and professional life.", "Gossiping about the impact of fame is thought-provoking."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_personal_wardrobe",
+      "patterns": ["Have you seen their latest fashion choices?", "Their wardrobe is always on point.", "I'm curious about their fashion secrets.", "Fashion trends are influenced by celebrities.", "Red carpet looks always make headlines."],
+      "responses": ["Fashion choices speak volumes.", "Personal style sets trends.", "Celebrity fashion inspires clothing lines.", "Red carpet fashion is a form of self-expression.", "Gossiping about personal wardrobes is exciting."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_hidden_talents",
+      "patterns": ["Did you know about their hidden talent?", "Talents beyond their main profession are intriguing.", "I'm impressed by their diverse skills.", "Hidden talents show a different side of them.", "I wonder if they'll showcase their talent publicly."],
+      "responses": ["Hidden talents surprise fans.", "Diverse skills make them multi-dimensional.", "Talented individuals inspire creativity.", "Unveiling hidden talents creates buzz.", "Gossiping about hidden talents is captivating."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_rebranding_efforts",
+      "patterns": ["Have you noticed their efforts to rebrand themselves?", "Rebranding can shift public perception.", "I'm curious about their strategy for a fresh start.", "Image overhauls require careful planning.", "Reinvention is a bold move."],
+      "responses": ["Rebranding efforts intrigue fans.", "Public perception changes through rebranding.", "Fresh starts in careers are admirable.", "Rebranding takes calculated steps.", "Gossiping about rebranding is thought-provoking."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_paparazzi_encounters",
+      "patterns": ["Have you seen their recent paparazzi photos?", "Paparazzi encounters can be invasive.", "I wonder how they deal with constant attention.", "Public figures are always in the spotlight.", "Privacy is a luxury for them."],
+      "responses": ["Paparazzi photos spark conversations.", "Intrusive attention challenges celebrities.", "Constant scrutiny is part of fame.", "Balancing privacy and public life is tough.", "Gossiping about paparazzi encounters is relevant."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_movie_tv_roles",
+      "patterns": ["Have you seen their latest movie/TV role?", "Their acting choices are always interesting.", "I'm excited to see their upcoming project.", "Movie and TV roles define their careers.", "Acting challenges showcase their talent."],
+      "responses": ["Movie and TV roles shape their legacy.", "Acting choices reflect versatility.", "Filmography contributes to their reputation.", "New roles keep fans engaged.", "Gossiping about acting choices is exciting."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_legacy_influences",
+      "patterns": ["Do you think their legacy will endure?", "Legacy and influence are interconnected.", "I wonder if they've thought about their impact.", "Creating a lasting legacy requires dedication.", "They're shaping the future of their industry."],
+      "responses": ["Legacies leave a mark on generations.", "Influence affects future trends.", "Impactful individuals inspire change.", "Creating a legacy requires vision.", "Gossiping about legacy influences is thought-provoking."],
+      "context_set": ""
+    },
+    {
+      "tag": "gossip_tabloid_rumors",
+      "patterns": ["Have you heard the latest tabloid rumors?", "Tabloid gossip is always juicy.", "I'm curious about their response to the rumors.", "Rumors and speculations keep us guessing.", "The tabloid world is full of sensationalism."],
+      "responses": ["Tabloid rumors generate buzz.", "Gossip columns thrive on speculation.", "Celebrities' responses to rumors are interesting.", "Sensationalism sells in the tabloid industry.", "Gossiping about tabloid rumors is captivating."],
       "context_set": ""
     }
   ]
